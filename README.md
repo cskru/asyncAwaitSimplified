@@ -19,7 +19,7 @@ const add = (a, b) => {
 [**Click here to read about arrow functions' basics**](https://codeburst.io/javascript-arrow-functions-for-beginners-926947fc0cdc)
 
 - How to execute?
-Copy, paste th contents of the js file and execute them:
+Copy, paste the contents of an individual js file and execute it:
 ```node <jsFileName>.js```  
 
 - Or,  
@@ -31,7 +31,7 @@ Ok, Let's start!
 
 1. **1_async_await_simple.js**
 - Defines 4 ```async``` methods, add, subtract, mul, div that return respective results.
--  Uses an ```async``` iife as a context within which await is used.  
+-  Uses an ```async``` iife as a context within which ```await``` is used.  
 Awaiting simply in a bare js program (top level await) is illegal. Refer: <https://stackoverflow.com/a/39679541/7253565>
 - This simply means, ```await``` can be done inside another async method.
 - 
