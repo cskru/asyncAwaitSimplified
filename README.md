@@ -11,7 +11,7 @@ function add(a, b) {
 ```
 is similar to (They aren't alike!)
 ```javascript
-const add = () => {
+const add = (a, b) => {
     return (a + b);
 }
 ```
